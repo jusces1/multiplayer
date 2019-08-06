@@ -1,0 +1,95 @@
+body {
+  margin: 50px;
+}
+
+#root {
+  width: 100%;
+}
+
+.loginForm {
+  text-align: center;
+}
+.you {
+  color: green;
+}
+.app {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.preliminar {
+  color: #1b7c25;
+  text-decoration: underline;
+  margin-top: 5px;
+}
+.instructions {
+  text-align: center;
+  margin: 10px;
+}
+.loader {
+  padding: 5px;
+  color: #e4e45f;
+  font-size: 20px;
+}
+.error {
+  padding: 5px;
+  color: red;
+  font-size: 20px;
+}
+
+.newGameForm {
+  text-align: center;
+  margin: 10px;
+}
+
+.games {
+  margin: 20px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+.bad-hit {
+  color: red;
+}
+
+.good-hit {
+  color: green;
+}
+
+.okay-hit {
+  color: orange;
+}
+
+.loginForm {
+  margin: 50px;
+}
+
+.metronomeButton {
+  display: block;
+  width: 200px;
+  height: 30px;
+  margin: 5px;
+}
+
+.metronomeButton.close {
+  width: 100px;
+  color: gray;
+}
+
+.metronomeGame {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+.conneting {
+  padding: 5px;
+  font-size: 20px;
+  color: #e2e21d;
+}
+.err {
+  padding: 5px;
+  font-size: 20px;
+  color: red;
+}

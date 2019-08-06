@@ -1,0 +1,25 @@
+body {
+  display: flex;
+  justify-content: center;
+}
+.Back {
+  width: 200px;
+  margin: 5px;
+  background: white;
+  border: red 2px solid;
+  padding: 5px;
+  border-radius: 10px;
+  box-shadow: 2px 2px #0000001f;
+  color: red;
+}
+.toolbar {
+  display: flex;
+  justify-content: space-evenly;
+  border: 1px solid;
+  border-radius: 15px;
+  padding: 10px;
+}
+.center {
+  display: flex;
+  justify-content: center;
+}
